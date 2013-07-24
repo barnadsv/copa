@@ -1,0 +1,209 @@
+info it worked if it ends with ok
+verbose cli [ 'nodejs', '/usr/bin/npm', 'install', '-g', 'testacular' ]
+info using npm@1.1.19
+info using node@v0.6.18
+verbose config file /home/leonardo/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/lib/nodejs/npm/npmrc
+verbose cache add [ 'testacular', null ]
+silly cache add: name, spec, args [ undefined, 'testacular', [ 'testacular', null ] ]
+verbose parsed url { pathname: 'testacular',
+verbose parsed url   path: 'testacular',
+verbose parsed url   href: 'testacular' }
+verbose addNamed [ 'testacular', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'testacular', '', false ]
+verbose raw, before any munging testacular
+verbose url resolving [ 'https://registry.npmjs.org/', './testacular' ]
+verbose url resolved https://registry.npmjs.org/testacular
+http GET https://registry.npmjs.org/testacular
+http 200 https://registry.npmjs.org/testacular
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+silly get cb     etag: '"DG2COJL9H3J1MRMX6QHVRNB3R"',
+silly get cb     date: 'Sat, 26 Jan 2013 16:26:24 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '215333' } ]
+silly name, range, hasData 2 [ 'testacular', '', true ]
+silly versions [ 'testacular',
+silly versions   [ '0.0.7',
+silly versions     '0.0.8',
+silly versions     '0.0.9',
+silly versions     '0.0.10',
+silly versions     '0.0.11',
+silly versions     '0.0.12',
+silly versions     '0.0.13',
+silly versions     '0.0.14',
+silly versions     '0.0.15',
+silly versions     '0.0.16',
+silly versions     '0.0.17' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0i-fips-v83.6.6.25-linux-x64-3.5.4-2.fc17.x86_64',
+verbose bin dist   { shasum: 'dc1e8abceb0ab3043d07172eee2eceead3facd51',
+verbose bin dist     tarball: 'http://registry.npmjs.org/testacular/-/testacular-0.0.17.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/testacular/-/testacular-0.0.17.tgz',
+verbose addRemoteTarball   'dc1e8abceb0ab3043d07172eee2eceead3facd51' ]
+verbose fetch to /tmp/npm-1359144181782/1359144181784-0.8197597293183208/tmp.tgz
+http GET https://registry.npmjs.org/testacular/-/testacular-0.0.17.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 25718
+info shasum dc1e8abceb0ab3043d07172eee2eceead3facd51
+info shasum /tmp/npm-1359144181782/1359144181784-0.8197597293183208/tmp.tgz
+verbose unpack /tmp/npm-1359144181782/1359144181784-0.8197597293183208/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry adapter/jasmine.js
+silly extracting entry adapter/mocha.js
+silly extracting entry adapter/lib/jasmine.js
+silly extracting entry adapter/lib/mocha.js
+silly extracting entry bin/testacular
+silly extracting entry bin/testacular-run
+silly extracting entry CHANGELOG.md
+silly extracting entry docs/architecture.png
+silly extracting entry docs/browsers.md
+silly extracting entry docs/client-server-protocol.md
+silly extracting entry docs/events.md
+silly extracting entry docs/sequence.png
+silly extracting entry lib/browser.js
+silly extracting entry lib/events.js
+silly extracting entry lib/file-list.js
+silly extracting entry lib/index.js
+silly extracting entry lib/constants.js
+silly extracting entry lib/logger.js
+silly extracting entry lib/reporter.js
+silly extracting entry lib/runner.js
+silly extracting entry lib/server.js
+silly extracting entry lib/util.js
+silly extracting entry lib/config.js
+silly extracting entry lib/watcher.js
+silly extracting entry lib/cli.js
+silly extracting entry lib/web-server.js
+silly extracting entry lib/launcher.js
+silly extracting entry static/testacular.js
+silly extracting entry static/client.html
+silly extracting entry static/context.html
+silly extracting entry static/debug.html
+silly extracting entry static/safari.html
+verbose caching /tmp/npm-1359144181782/1359144181784-0.8197597293183208/package/package.json
+verbose loadDefaults testacular@0.0.17
+verbose from cache /tmp/npm-1359144181782/1359144181784-0.8197597293183208/package/package.json
+verbose tar.pack [ '/home/leonardo/.npm/testacular/0.0.17/package.tgz',
+verbose tar.pack   '/tmp/npm-1359144181782/1359144181784-0.8197597293183208/package' ]
+verbose tarball /home/leonardo/.npm/testacular/0.0.17/package.tgz
+verbose folder /tmp/npm-1359144181782/1359144181784-0.8197597293183208/package
+verbose unpack /home/leonardo/.npm/testacular/0.0.17/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry static/testacular.js
+silly extracting entry static/debug.html
+silly extracting entry static/context.html
+silly extracting entry static/safari.html
+silly extracting entry static/client.html
+silly extracting entry CHANGELOG.md
+silly extracting entry docs/architecture.png
+silly extracting entry docs/client-server-protocol.md
+silly extracting entry docs/sequence.png
+silly extracting entry docs/browsers.md
+silly extracting entry docs/events.md
+silly extracting entry adapter/mocha.js
+silly extracting entry adapter/jasmine.js
+silly extracting entry adapter/lib/mocha.js
+silly extracting entry adapter/lib/jasmine.js
+silly extracting entry bin/testacular
+silly extracting entry bin/testacular-run
+silly extracting entry lib/logger.js
+silly extracting entry lib/util.js
+silly extracting entry lib/index.js
+silly extracting entry lib/events.js
+silly extracting entry lib/server.js
+silly extracting entry lib/runner.js
+silly extracting entry lib/web-server.js
+silly extracting entry lib/watcher.js
+silly extracting entry lib/launcher.js
+silly extracting entry lib/config.js
+silly extracting entry lib/browser.js
+silly extracting entry lib/file-list.js
+silly extracting entry lib/cli.js
+silly extracting entry lib/constants.js
+silly extracting entry lib/reporter.js
+verbose caching /home/leonardo/.npm/testacular/0.0.17/package/package.json
+verbose loadDefaults testacular@0.0.17
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 25288
+info shasum b00865c30a4295933abba4712aff9f872754e2c8
+info shasum /home/leonardo/.npm/testacular/0.0.17/package.tgz
+verbose from cache /home/leonardo/.npm/testacular/0.0.17/package/package.json
+verbose chmod /home/leonardo/.npm/testacular/0.0.17/package.tgz 644
+verbose chown [ '/home/leonardo/.npm/testacular/0.0.17/package.tgz',
+verbose chown   1000,
+verbose chown   1000 ]
+silly resolved [ { name: 'testacular',
+silly resolved     description: 'Remote execution of JS on multiple browsers / node.js',
+silly resolved     homepage: 'http://vojtajina.github.com/testacular/',
+silly resolved     bugs: { url: 'https://github.com/vojtajina/testacular/issues' },
+silly resolved     keywords: [ 'Testacular', 'nodejs', 'js', 'testing', 'remote', 'execution' ],
+silly resolved     author: { name: 'Vojta Jína', email: 'vojta.jina@gmail.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Igor Minár', email: 'igor.minar@gmail.com' },
+silly resolved        { name: 'Peter Bacon Darwin', email: 'pete@bacondarwin.com' },
+silly resolved        { name: 'Andy Joslin', email: 'andytjoslin@gmail.com' },
+silly resolved        { name: 'Marcello Nuccio', email: 'marcello.nuccio@gmail.com' } ],
+silly resolved     dependencies: 
+silly resolved      { 'socket.io': '>= 0.8.5',
+silly resolved        chokidar: '>=0.3.0',
+silly resolved        glob: '>=3.1.10',
+silly resolved        minimatch: '>=0.2.5',
+silly resolved        optimist: '>= 0.3.1' },
+silly resolved     devDependencies: 
+silly resolved      { 'jasmine-node': '>= 1.0.11',
+silly resolved        jake: '>= 0.2.15',
+silly resolved        mocks: '>= 0.0.2' },
+silly resolved     preferGlobal: true,
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/vojtajina/testacular.git' },
+silly resolved     main: './lib/index',
+silly resolved     bin: 
+silly resolved      { testacular: './bin/testacular',
+silly resolved        'testacular-run': './bin/testacular-run' },
+silly resolved     engines: { node: '>= 0.6.5' },
+silly resolved     version: '0.0.17',
+silly resolved     _id: 'testacular@0.0.17',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.19',
+silly resolved     _nodeVersion: 'v0.6.18',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'b00865c30a4295933abba4712aff9f872754e2c8' },
+silly resolved     _from: 'testacular' } ]
+info into /usr/lib testacular@0.0.17
+info installOne testacular@0.0.17
+verbose from cache /home/leonardo/.npm/testacular/0.0.17/package/package.json
+info unbuild /usr/lib/node_modules/testacular
+verbose unpack /home/leonardo/.npm/testacular/0.0.17/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+ERR! Error: EACCES, mkdir '/usr/lib/node_modules/testacular'
+ERR! 
+ERR! Please try running this command again as root/Administrator.
+ERR! 
+ERR! System Linux 3.5.4-2.fc17.x86_64
+ERR! command "nodejs" "/usr/bin/npm" "install" "-g" "testacular"
+ERR! cwd /var/www/html/copa-confederacoes/public
+ERR! node -v v0.6.18
+ERR! npm -v 1.1.19
+ERR! path /usr/lib/node_modules/testacular
+ERR! fstream_path /usr/lib/node_modules/testacular
+ERR! fstream_type Directory
+ERR! fstream_class DirWriter
+ERR! code EACCES
+ERR! message EACCES, mkdir '/usr/lib/node_modules/testacular'
+ERR! errno {}
+ERR! fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:36:23
+ERR! fstream_stack Object.oncomplete (/usr/lib/nodejs/mkdirp/index.js:45:17)
+verbose exit [ 1, true ]

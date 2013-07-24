@@ -1,0 +1,14 @@
+<% if ($.cookie('papel') == 'admin') { %>
+    <td class="td-left"><a href="#" rel="popover" class="usuarioeditable" data-pk="<%= id %>" data-type="text" data-name="email" ><%= email ? email : "-" %></a></td>
+<% } else { %>
+    <td class="td-left"><%= email ? email : "-" %></td>
+<% } %>
+<td class="td-left"><a href="#" rel="popover" class="usuarioeditable usuario-nome" data-pk="<%= id %>" data-type="text" data-name="nome"><%= nome ? nome : "-" %></a></td>
+<td class="td-left"><a href="#" rel="popover" class="usuarioeditable usuario-senha" data-pk="<%= id %>" data-type="text" data-name="senha" id="usuario-senha">****</a></td>
+<% if ($.cookie('papel') == 'admin') { %>
+    <td class="td-left"><a href="#" rel="popover" class="usuarioeditable" data-pk="<%= id %>" data-type="select" data-name="papel" data-source="/papeis"><%= papel ? papel : "-" %></a></td>
+    <td class="td-left"><a href="#" rel="popover" class="usuarioeditable" data-pk="<%= id %>" data-type="text" data-name="contribuicao"><%= contribuicao ? "R$ " + contribuicao : "-" %></a></td>
+    <td class="td-left td-right addcell"><button class="btn btn-warning btn-mini btn-apagar" href="" data-pk="<%= id %>">Apagar</button></td>
+<% } else { %>
+    <td class="td-left td-right">R$ <%= contribuicao ? contribuicao : "-" %></td>
+<% } %>

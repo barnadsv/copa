@@ -1,0 +1,14 @@
+<td class="td-left"><a href="#" rel="popover" class="partidaeditable" data-pk="<%= id %>" data-type="select" data-name="fase_id" data-source="/fases"><%= fase.nom_fase ? fase.nom_fase : "?" %></a></td>
+<td class="td-left"><a href="#" rel="popover" class="partidaeditable" data-pk="<%= id %>" data-type="text" data-name="grupo" ><%= grupo ? grupo : "?" %></a></td>
+<td class="td-left"><a href="#" rel="popover" class="partidaeditable" data-pk="<%= id %>" data-type="text" data-name="num_partida" ><%= num_partida ? num_partida : "?" %></a></td>
+<td class="td-left"><a href="#" rel="popover" class="partidaeditable" data-pk="<%= id %>" data-type="combodate" data-name="dth_partida" ><%= dth_partida ? moment(utils.getDate(dth_partida)).format('DD/MM/YYYY-HH:mm') : "?" %></a></td>
+<td class="td-left"><a href="#" rel="popover" class="partidaeditable" data-pk="<%= id %>" data-type="select" data-name="local_id" data-source="/locais"><%= local.nom_cidade ? local.nom_cidade : "?" %></a></td>
+<td class="td-left"><% if (equipe_1.img_bandeira) { %><img src="<%= equipe_1.img_bandeira %>" width="25" height="25"> <% } %></td>
+<td><a href="#" rel="popover" class="partidaeditable" data-pk="<%= id %>" data-type="select" data-name="equipe_1_id" data-source="/equipes"><%= equipe_1.nom_equipe ? equipe_1.nom_equipe : "?" %></a></td>
+<td class="td-left"><a href="#" rel="popover" class="partidaeditable" data-pk="<%= id %>" data-type="text" data-name="qtd_gols_equipe_1" ><%= qtd_gols_equipe_1 ? qtd_gols_equipe_1 : "?" %></a></td>
+<td class="td-left">x</td>
+<td class="td-left"><a href="#" rel="popover" class="partidaeditable" data-pk="<%= id %>" data-type="text" data-name="qtd_gols_equipe_2" ><%= qtd_gols_equipe_2 ? qtd_gols_equipe_2 : "?" %></a></td>
+<td class="td-left"><a href="#" rel="popover" class="partidaeditable" data-pk="<%= id %>" data-type="select" data-name="equipe_2_id" data-source="/equipes"><%= equipe_2.nom_equipe ? equipe_2.nom_equipe : "?" %></a></td>
+<td class="td-right"><% if (equipe_2.img_bandeira) { %><img src="<%= equipe_2.img_bandeira %>" width="25" height="25"> <% } %></td>
+<td class="td-right"><a href="#" rel="popover" class="partidaeditable" data-pk="<%= id %>" data-type="select" data-name="status" data-source="/status"><%= status ? status : "?" %></a></td>
+<td class="td-left td-right addcell"><button class="btn btn-warning btn-mini btn-apagar" href="" data-pk="<%= id %>">Apagar</button></td>

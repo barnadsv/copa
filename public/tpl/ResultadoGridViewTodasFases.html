@@ -1,0 +1,30 @@
+<tr>
+	<th class="td-fase td-left td-right" colspan="<%= colspan %>">Todas as Fases - Prêmio (R$ <%= contribuicao %>,00)</th>
+</tr>"
+<tr>
+	<th class="td-left td-right"></th>
+	<% for (var i = 0; i < fases.length; i += 1) { %>
+        <th class="td-left td-right td-<%= fases[i].fasefiltered %>-odd td-fase-white"><%= fases[i].fase %></th>
+    <% } %>
+	<th class="td-left td-right">Total</th>
+	<th class="td-left td-right">Colocação</th>
+</tr>
+<% for (var i = 0; i < usuarios.length; i += 1) { %>
+<tr>
+	<% if (usuarios[i].colocacao == '1') { %>
+		<th class="td-left td-right td-todas-fases-even"><%= usuarios[i].usuario %></th>
+		<% for (var j = 0; j < usuarios[i].pontosFases.length; j += 1) { %>
+			<td class="td-left td-right td-todas-fases-even"><%= usuarios[i].pontosFases[j].pontos %></td>
+		<% } %>
+		<td class="td-left td-right td-todas-fases-even"><%= usuarios[i].total %></td>
+		<td class="td-left td-right td-todas-fases-even"><%= usuarios[i].colocacao %></td>
+	<% } else { %>
+		<th class="td-left td-right"><%= usuarios[i].usuario %></th>
+		<% for (var j = 0; j < usuarios[i].pontosFases.length; j += 1) { %>
+			<td class="td-left td-right"><%= usuarios[i].pontosFases[j].pontos %></td>
+		<% } %>
+		<td class="td-left td-right"><%= usuarios[i].total %></td>
+		<td class="td-left td-right"><%= usuarios[i].colocacao %></td>
+	<% } %>
+</tr>
+<% } %>

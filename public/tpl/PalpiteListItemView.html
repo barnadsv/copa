@@ -1,0 +1,29 @@
+<td class="td-left"><%= partida.grupo %></td>
+<td class="td-left"><%= partida.num_partida %></td>
+<td class="td-left"><%= moment(utils.getDate(partida.dth_partida)).format('DD/MM/YYYY-HH:mm') %></td>
+<td class="td-left"><%= partida.local.nom_cidade %></td>
+<td class="td-left"><% if (partida.equipe_1.img_bandeira) { %><img src="<%= partida.equipe_1.img_bandeira %>" width="15" height="15"> <% } %></td>
+<td><%= partida.equipe_1.nom_equipe %></td>
+<td class="gol"><%= partida.qtd_gols_equipe_1 ? partida.qtd_gols_equipe_1 : "--" %></td>
+<td>x</td>
+<td class="gol"><%= partida.qtd_gols_equipe_2 ? partida.qtd_gols_equipe_2 : "--" %></td>
+<td><%= partida.equipe_2.nom_equipe %></td>
+<td><% if (partida.equipe_2.img_bandeira) { %><img src="<%= partida.equipe_2.img_bandeira %>" width="15" height="15"> <% } %></td>
+<td class="td-left <% if (partida.status == 'A iniciar') { %>a-iniciar<% } else { %>iniciado<% } %>"><%= partida.status %></td>
+<td class="td-left"><% if (partida.equipe_1.img_bandeira) { %><img src="<%= partida.equipe_1.img_bandeira %>" width="15" height="15"> <% } %></td>
+<td><%= partida.equipe_1.nom_equipe %></td>
+<% if (partida.status == 'A iniciar') { %>
+<td class="gol"><a href="#" rel="popover" class="qtd_gols_equipe_1" data-pk="<%= id %>"><%= qtd_gols_equipe_1 ? qtd_gols_equipe_1 : "?" %></a></td>
+<% } else { %>
+<td class="gol"><%= qtd_gols_equipe_1 ? qtd_gols_equipe_1 : "0" %></td>
+<% } %>
+<td>x</td>-
+<% if (partida.status == 'A iniciar') { %>
+<td class="gol"><a href="#" class="qtd_gols_equipe_2" data-pk="<%= id %>"><%= qtd_gols_equipe_2 ? qtd_gols_equipe_2 : "?" %></a></td>
+<% } else { %>
+<td class="gol"><%= qtd_gols_equipe_2 ? qtd_gols_equipe_2 : "0" %></td>
+<% } %>
+<td><%= partida.equipe_2.nom_equipe %></td>
+<td class="td-right"><% if (partida.equipe_2.img_bandeira) { %><img src="<%= partida.equipe_2.img_bandeira %>" width="15" height="15"> <% } %></td>
+<td class="td-right"><%= qtd_pontos %></td>
+

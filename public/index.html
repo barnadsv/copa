@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" value="IE=edge" charset="utf-8"/>
+    <title>Bolão da Copa das Confederações</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <style>
+        body {
+            padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
+    </style>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="lib/bootstrap-editable/css/bootstrap-editable.css" rel="stylesheet">
+    <link href="lib/backbone-ui/backbone-ui.css" rel="stylesheet">
+    <!-- <link href="css/jackedup.css" rel="stylesheet">
+    <link href="css/libnotify.css" rel="stylesheet"> -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/boldlight.css" rel="stylesheet">
+    <link href="css/nv.d3.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="header"></div>
+<div class="identification"></div>
+<div class="container">
+    <div class="row">
+        <div id="buttons" class="span12"></div>
+    </div>
+    <div class="row">
+        <div id="content" class="span12"></div>
+    </div>
+</div>
+
+<script src="lib/jquery-1.7.2.min.js"></script>
+<script src="lib/jquery.cookie.js"></script>
+<script src="lib/jquery.mockjax.js"></script>
+<script src="lib/underscore-min.js"></script>
+<script src="lib/backbone.js"></script>
+<script src="lib/backbone-validation-min.js"></script>
+<script src="lib/backbone-ui/backbone-ui.js"></script>
+<script src="lib/bootstrap.js"></script>
+<script src="lib/bootstrap-tooltip.js"></script>
+<script src="lib/bootstrap-popover.js"></script>
+<script src="lib/bootstrap-editable/js/bootstrap-editable.js"></script>
+<script src="lib/backbone.datagrid.js"></script>
+<script src="lib/moment.min.js"></script>
+<script src="lib/sha3.js"></script>
+<script src="lib/sha256.js"></script>
+<script src="lib/merge-sort.js"></script>
+<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+<script src="lib/rcolor.js"></script>
+<script src="lib/d3.v3.js"></script>
+<script src="lib/jquery.qtip.min.js"></script>
+<script src="lib/jquery.simpletip-1.3.1.min.js"></script>
+<script src="lib/LAB.min.js"></script>
+
+<!-- NVD3 -->
+<script src="lib/nvd3/nv.d3.js"></script>
+<script src="lib/nvd3/tooltip.js"></script>
+<script src="lib/nvd3/utils.js"></script>
+<script src="lib/nvd3/models/legend.js"></script>
+<script src="lib/nvd3/models/axis.js"></script>
+<script src="lib/nvd3/models/scatter.js"></script>
+<script src="lib/nvd3/models/line.js"></script>
+<script src="lib/nvd3/models/lineWithFocusChart.js"></script>
+<script src="lib/nvd3/models/multiBarChart.js"></script>
+<script src="lib/nvd3/stream_layers.js"></script>
+<!-- NVD3 -->
+
+
+
+<!-- <script src="js/utils.js"></script>
+<script src="js/humane.js"></script>
+<script src="js/models/employeemodel.js"></script>
+<script src="js/models/equipemodel.js"></script>
+<script src="js/models/fasemodel.js"></script>
+<script src="js/models/localmodel.js"></script>
+<script src="js/models/palpitemodel.js"></script>
+<script src="js/models/partidamodel.js"></script>
+<script src="js/models/sessionmodel.js"></script>
+<script src="js/models/usuariomodel.js"></script>
+<script src="js/views/base.js"></script>
+<script src="js/views/header.js"></script>
+<script src="js/views/identification.js"></script>
+<script src="js/views/adminheader.js"></script>
+<script src="js/views/login.js"></script>
+<script src="js/views/regras.js"></script>
+<script src="js/views/usuario.js"></script>
+<script src="js/views/resultado.js"></script>
+<script src="js/views/partida.js"></script>
+<script src="js/views/palpite.js"></script>
+<script src="js/views/local.js"></script>
+<script src="js/views/equipe.js"></script>
+<script src="js/views/fase.js"></script>
+<script src="js/views/employeelist.js"></script>
+<script src="js/views/employeedetails.js"></script>
+
+<script src="js/main.js"></script> -->
+
+<script>
+    $(function() {
+         $LAB
+            .script('js/init.js').wait()
+            .script('js/utils.js').wait()
+            .script('js/humane.js')
+            .script('js/models/employeemodel.js')
+            // .script('js/models/equipemodel.js')
+            // .script('js/models/fasemodel.js')
+            // .script('js/models/localmodel.js')
+            // .script('js/models/palpitemodel.js')
+            // .script('js/models/partidamodel.js')
+            // .script('js/models/sessionmodel.js')
+            // .script('js/models/usuariomodel.js')
+            .script('js/models/models.js')
+            .script('js/views/base.js')
+            .script('js/views/header.js')
+            .script('js/views/identification.js')
+            .script('js/views/adminheader.js')
+            .script('js/views/login.js')
+            .script('js/views/regras.js')
+            .script('js/views/tabela.js')
+            .script('js/views/usuario.js')
+            .script('js/views/resultado.js')
+            .script('js/views/partida.js')
+            .script('js/views/palpite.js')
+            .script('js/views/local.js')
+            .script('js/views/equipe.js')
+            .script('js/views/fase.js')
+            .script('js/views/employeelist.js')
+            .script('js/views/employeedetails.js').wait()
+            //.script('js/views/views.js').wait()
+            .script('js/main.js').wait(function() {
+                templateLoader.load(["LoginView", "TabelaView", "HeaderView", "AdminHeaderView", "EmployeeView", "IdentificationView",
+                     "PalpiteListView", "PalpiteListItemView", "PalpiteListItemViewFaseHeader", "PalpiteListItemViewHeader",
+                     "UsuarioView", "UsuarioListView", "UsuarioItemView", "UsuarioListItemViewHeader", "UsuarioListItemViewAddHeader",
+                     "PartidaView", "PartidaListView", "PartidaListItemView", "PartidaListItemViewHeader", "PartidaListItemViewAddHeader",
+                     "LocalView", "LocalListView", "LocalListItemView", "LocalListItemViewHeader", "LocalListItemViewAddHeader",
+                     "EquipeView", "EquipeListView", "EquipeListItemView", "EquipeListItemViewHeader", "EquipeListItemViewAddHeader",
+                     "FaseView", "FaseListView", "FaseListItemView", "FaseListItemViewHeader", "FaseListItemViewAddHeader",
+                     "ResultadoButtonView", "ResultadoGridViewFase", "ResultadoGridViewTodasFases"],
+                function () {
+                    BolaoCopa.start();
+                });
+            });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+<th class="th-border">E-mail</th>
+<th class="th-border">Nome</th>
+<th class="th-border">Senha</th>
+<% if ($.cookie('papel') == 'admin') { %>
+    <th class="th-border">Papel</th>
+<% } %>
+    <th class="th-border">Contribuição</th>
+<% if ($.cookie('papel') == 'admin') { %>
+    <th class="th-border"></th>
+<% } %>

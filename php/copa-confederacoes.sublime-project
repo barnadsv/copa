@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"path": "/C/xampp/htdocs/copa-confederacoes"
+		},
+		{
+			"path": "/C/xampp/htdocs/copa-confederacoes-marionette"
+		}
+	],
+	"settings":
+	{
+		"xdebug":
+		{
+			"url": "http://localhost:8787"
+		}
+	}
+}

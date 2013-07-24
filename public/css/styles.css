@@ -1,0 +1,357 @@
+body {
+    padding-top: 50px !important;
+}
+
+.dropdown-menu {
+    max-height: 400px;
+    overflow-y: scroll;
+    width: 220px;
+}
+
+.list-item {
+    padding-top: 6px;
+    padding-left: 56px;
+}
+
+.no-reports {
+    display: none;
+}
+
+.table {
+  margin-bottom: 0 !important;
+}
+
+.table tr {
+    border-bottom: 1px solid #dddddd !important;
+}
+
+.table th , .table td {
+	/*table-layout:fixed;
+	width:60px;
+	overflow:hidden;
+	word-wrap:break-word;*/
+	text-align: center;
+  vertical-align: middle;
+  font-size: .9em;
+}
+
+.td-left {
+    border-left: 1px solid #dddddd !important;
+}
+
+.td-right {
+    border-right: 1px solid #dddddd !important;
+}
+
+.th-border {
+    border: 1px solid #dddddd !important;
+}
+
+.td-fixed {
+    width: 90px !important;
+}
+
+.table-condensed td, .table-condensed th {
+    padding: 0px 1px;
+    height: 10px !important;
+}
+
+.hero-unit  {
+    padding: 10px !important;
+    margin-bottom: 0 !important;
+}
+
+.table-left td {
+    text-align: left !important;
+    font-size: 16px;
+}
+
+.gol {
+    font-size: 1.2em !important;
+    font-weight: bold;
+}
+
+.table-usuario {
+    width: 960px;
+    border: 0;
+}
+
+.nav-collapse {
+    float: right;
+}
+
+select {
+    display: block !important;
+}
+
+.a-iniciar {
+    background-color: #d3fbc5 !important;
+}
+
+.iniciado {
+    background-color: #fbd3c5 !important;
+}
+
+.identification-bar {
+    width: 940px;
+    min-height: 20px;
+    margin: auto;
+    padding: auto;
+    color: #317eac;
+}
+
+.time {
+    text-align: right;
+}
+
+.th-right {
+    text-align: right !important;
+}
+
+.table-striped-blue tbody > tr:nth-child(odd) > td,
+.table-striped-blue tbody > tr:nth-child(odd) > th {
+    background-color: #efefff;
+}
+
+.td-fase {
+    font-size: 1.2em !important;
+}
+
+/*colors = ["#0055cc", "#5bbdd8", "#5fbe60", "#fbb14e", "#e95b57"];*/
+
+.td-fase_de_grupos__1_rodada-odd {
+    background-color: #6193ca !important;
+    color: #0e2239 !important;
+}
+
+.td-fase_de_grupos__1_rodada-even {
+    background-color: #bfcfe1 !important;
+    color: #0e2239 !important;
+}
+
+.td-fase_de_grupos__2_rodada-odd {
+    background-color: #76aebf !important;
+    color: #123e4b !important;
+}
+
+.td-fase_de_grupos__2_rodada-even {
+    background-color: #bfd9e1 !important;
+    color: #123e4b !important;
+}
+
+.td-fase_de_grupos__3_rodada-odd {
+    background-color: #7ca57c !important;
+    color: #0e3b0e !important;
+}
+
+.td-fase_de_grupos__3_rodada-even {
+    background-color: #c6dcc6 !important;
+    color: #0e3b0e !important;
+}
+
+.td-semifinais-odd {
+    background-color: #fbc983 !important;
+    color: #5a3e17 !important;
+}
+
+.td-semifinais-even {
+    background-color: #f5e7d4 !important;
+    color: #5a3e17 !important;
+}
+
+.td-finais-odd {
+    background-color: #c7827e !important;
+    color: #3a100f !important;
+}
+
+.td-finais-even {
+    background-color: #eccbc9 !important;
+    color: #3a100f !important;
+}
+
+.td-fase-white {
+    color: #ffffff !important;
+}
+
+.td-todas-fases-even {
+    /*background-color: #79fcdf !important;
+    color: #000000 !important;*/
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+/* Grafico */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+/* Graficos */
+
+div.div_Header {
+    width: 100%;
+    border:2px solid White;
+    border-radius:7px;
+    background: WhiteSmoke;
+    font: bold 14px Arial;
+    font-family:Arial, Helvetica, sans-serif;
+    color:WhiteSmoke;
+    text-align:center;
+}
+h1.h1_BodyHeader {
+    text-align:center;
+    font: bold 1.5em Arial;
+}
+h2.h2_LeftMenuHeader {
+    text-align:center;
+    font: bold 1.2em Arial;
+}
+h3.h3_Body {
+    text-align:center;
+}
+p.p_Red {
+    color:Red;
+}
+table.table_Header {
+    width: 100%;
+    text-align:center;
+      }
+      td.td_HeaderLeft {
+    text-align:left;
+      }
+      td.td_HeaderRight {
+    text-align:right;
+      }
+      div.div_Menu {
+    width: 100%;
+    border:2px solid White;
+    border-radius:7px;
+    background: MidnightBlue;
+    font: bold 14px Arial;
+    font-family:Arial, Helvetica, sans-serif;
+    color:White;
+    text-align:center;
+      }
+      p.p_Left {
+    font-family:Arial, Helvetica, sans-serif;
+    color:Black;
+        text-align:left;
+        padding-left: 5px;
+        font: normal 14px Arial;
+      }
+      table.table_Body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+      }
+      td.td_BodyLeft {
+    width: 250px;
+    height: 100%;
+    padding: 0;
+      }
+      li.li_LeftMenu {
+    text-align:left;
+    font: normal 14px Arial;
+      }
+      a.a_LeftMenuNoUnderLine {
+    text-decoration:  none;
+      }
+      div.div_Body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border:2px solid White;
+    border-radius:7px;
+    background: WhiteSmoke;
+    font: bold 14px Arial;
+    font-family:Arial, Helvetica, sans-serif;
+    color:Black;
+    text-align:center;
+      }
+      div.div_Footer {
+    width: 100%;
+    border:2px solid White;
+    border-radius:7px;
+    background: MidnightBlue;
+    font: bold 14px Arial;
+    font-family:Arial, Helvetica, sans-serif;
+    color:White;
+    text-align:center;
+      }
+      p.p_if4itMessage {
+    width: 100%;
+    background: White;
+    font: bold .75em Arial;
+    font-family:Arial, Helvetica, sans-serif;
+    color:GoldenRod;
+    text-align:center;
+      }
+      .menuButton{
+        background-color: MidnightBlue;
+      }
+      .menuButton li{
+    height: 100%;
+    list-style: none;
+    display: inline;
+      }
+      .menuButton li a{
+    height: 100%;
+    padding: 3px 0.5em;
+    text-decoration: none;
+    color: White;
+    background-color: MidnightBlue;
+    border: 2px solid MidnightBlue;
+      }
+      .menuButton li a:hover{
+    height: 100%;
+    color: MidnightBlue;
+    background-color: White;
+    border-style: outset;
+    background-color: White;
+      }
+      .menuButton li a:active{
+        height: 100%;
+        border-style: inset;
+        color: MidnightBlue;
+        background-color: White;
+      }
+      .menuButton li a.disabled{
+        height: 100%;
+        padding: 3px 0.5em;
+        text-decoration: none;
+        color: MidnightBlue;
+        background-color: White;
+        border: 2px solid MidnightBlue;
+        border-style: inset;
+        border-color: White;
+      }
+
+.tip {
+    color: #fff;
+    background:#1d1d1d;
+    display:none; /*--Hides by default--*/
+    padding:10px;
+    position:absolute;    z-index:1000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.custom-tooltip-bg{
+  fill: white;
+  stroke: black;
+  stroke-width: 1;
+  opacity: 0.85;
+}

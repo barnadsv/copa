@@ -1,0 +1,33 @@
+<div class="modal">
+    <form id="usuario-form">
+		<div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h3>Usuário</h3>
+	    </div>
+	    <div class="alert alert-error" style="display:none">
+            <strong>Ooops!</strong> You did not pass the validation.
+        </div>
+        <div class="alert alert-success" style="display:none">
+            <strong>Success!</strong> You passed the validation.
+        </div>
+	    <div class="modal-body">
+            <fieldset>
+		        <label>E-mail</label>
+		        <input id="email" type="text" placeholder="E-mail…" value="<%= email %>">
+		        <label>Nome</label>
+		        <input id="nome" type="text" placeholder="Nome…" value="<%= nome %>">
+		        <label>Senha</label>
+		        <input id="senha" type="password" placeholder="Senha…" value="<%= senha %>">
+		        <label>Papel</label>
+		        <select id="papel">
+				    <option <% if (papel == 'user') { %>selected<% } %>>user</option>
+				    <option <% if (papel == 'admin') { %>selected<% } %>>admin</option>
+				</select>
+		    </fieldset>
+		</div>
+	    <div class="modal-footer">
+	        <button id="usuario-form-close" class="btn btn-warning">Cancelar</button>
+	        <button id="usuario-form-submit" class="btn btn-success">Salvar</button>
+	    </div>
+	</form>
+</div>

@@ -1,0 +1,504 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"contribui",
+				"contribuicaoTotal"
+			],
+			[
+				"sub",
+				"subTotalAnterior"
+			],
+			[
+				"nomUsuario",
+				"nomUsuarioAntigo"
+			],
+			[
+				"mouse",
+				"mouseover"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"pontosUsua",
+				"pontosUsuarioClone"
+			],
+			[
+				"cols",
+				"colSpanPalpites"
+			],
+			[
+				"qtd",
+				"qtdGolsEquipe1"
+			],
+			[
+				"get",
+				"getResponseHeader"
+			],
+			[
+				"obj",
+				"objectToArray"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/copa-confederacoes/public/js/views/resultado.js",
+			"settings":
+			{
+				"buffer_size": 41622,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "partida.php",
+			"settings":
+			{
+				"buffer_size": 7922,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "$app [object] = \n$app::apps [array] = \n$app->name [string] = default\n$app->environment [object] = \n$app->request [object] = \n$app->response [object] = \n$app->router [object] = \n$app->view [object] = \n$app->settings [array] = \n$app->mode [string] = development\n$app->middleware [array] = \n$app->error [null] = \n$app->notFound [null] = \n$app->hooks [array] = \n$e [uninitialized] = \n$newArray [array] = \n$palpites [array] = \n$palpites[0] [array] = \n$palpites[1] [array] = \n$palpites[2] [array] = \n$palpites[3] [array] = \n$palpites[4] [array] = \n$palpites[5] [array] = \n$palpites[6] [array] = \n$palpites[7] [array] = \n$palpites[8] [array] = \n$palpites[9] [array] = \n$palpites[10] [array] = \n$palpites[11] [array] = \n$palpites[12] [array] = \n$palpites[13] [array] = \n$palpites[14] [array] = \n$palpites[15] [array] = \n$palpites[16] [array] = \n$palpites[17] [array] = \n$palpites[18] [array] = \n$palpites[19] [array] = \n$palpites[20] [array] = \n$palpites[21] [array] = \n$palpites[22] [array] = \n$palpites[23] [array] = \n$palpites[24] [array] = \n$palpites[25] [array] = \n$palpites[26] [array] = \n$palpites[27] [array] = \n$palpites[28] [array] = \n$palpites[29] [array] = \n$palpites[30] [array] = \n$palpites[31] [array] = \n",
+			"settings":
+			{
+				"buffer_size": 1212,
+				"line_ending": "Windows",
+				"name": "Xdebug Context",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "  0: file       getPalpites file:///C:/xampp/htdocs/copa-confederacoes/php/palpite.php:38\n  1: file       call_user_func_array file:///C:/xampp/htdocs/copa-confederacoes/vendor/slim/slim/Slim/Router.php:172\n  2: file       Slim\\Router->dispatch file:///C:/xampp/htdocs/copa-confederacoes/vendor/slim/slim/Slim/Router.php:172\n  3: file       Slim\\Slim->call file:///C:/xampp/htdocs/copa-confederacoes/vendor/slim/slim/Slim/Slim.php:1222\n  4: file       Slim\\Middleware\\Flash->call file:///C:/xampp/htdocs/copa-confederacoes/vendor/slim/slim/Slim/Middleware/Flash.php:86\n  5: file       Slim\\Middleware\\MethodOverride->call file:///C:/xampp/htdocs/copa-confederacoes/vendor/slim/slim/Slim/Middleware/MethodOverride.php:94\n  6: file       Slim\\Middleware\\ContentTypes->call file:///C:/xampp/htdocs/copa-confederacoes/vendor/slim/slim/Slim/Middleware/ContentTypes.php:80\n  7: file       Slim\\Middleware\\PrettyExceptions->call file:///C:/xampp/htdocs/copa-confederacoes/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php:67\n  8: file       Slim\\Slim->run file:///C:/xampp/htdocs/copa-confederacoes/vendor/slim/slim/Slim/Slim.php:1174\n  9: file       {main}     file:///C:/xampp/htdocs/copa-confederacoes/public/index.php:57\n",
+			"settings":
+			{
+				"buffer_size": 1222,
+				"line_ending": "Windows",
+				"name": "Xdebug Stack",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/regras.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/main.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/resultado.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/ResultadoButtonView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/css/styles.css",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/resultado_original.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/ResultadoView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/index.html",
+		"//intradsv/credenciamento/app/all-classes.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/usuario.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/identification.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/models/employeemodel.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/contact.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/models/partidamodel.js",
+		"/C/xampp/htdocs/copa-confederacoes/php/usuario.php",
+		"/C/xampp/htdocs/copa-confederacoes/php/partida.php",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/models/sessionmodel.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/UsuarioItemView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/partida.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/palpite.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/login.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/local.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/header.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/fase.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/equipe.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/resultado_.js",
+		"/C/xampp/htdocs/copa-confederacoes/php/palpite.php",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/models/palpitemodel.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/lib/nvd3/models/lineWithFocusChart.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/EquipeListItemView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/data.tsv",
+		"/D/USERS/leonardo/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/data.tsv",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/ResultadoGrafico.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/lib/mergesort.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/lib/merge-sort.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/UsuarioListItemViewHeader.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/css/boldlight.css",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/RegrasView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/PartidaListItemView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/PalpiteListItemView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/css/jackedup.css",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/PalpiteListItemViewFaseHeader.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/PalpiteListItemViewHeader.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/UsuarioListView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/IdentificationView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/index.php",
+		"/D/USERS/leonardo/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/UsuarioView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/PartidaView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/employeelist.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/views/employeedetails.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/LocalView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/LocalListView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/LocalListItemViewHeader.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/LocalListItemViewAddHeader.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/LocalListItemView.html",
+		"/C/xampp/htdocs/copa-confederacoes/php/local.php",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/PalpiteListView.html",
+		"/C/xampp/htdocs/copa-confederacoes/php/fase.php",
+		"/C/xampp/htdocs/copa-confederacoes/php/equipe.php",
+		"/C/xampp/htdocs/copa-confederacoes/php/copa-confederacoes.sublime-project",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/PartidaListItemViewAddHeader.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/PartidaFormView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/PartidaListItemViewHeader.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/PartidaNewView.html",
+		"/D/USERS/leonardo/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/UsuarioFormView.html",
+		"/C/xampp/htdocs/copa-confederacoes/vendor/slim/slim/Slim/Slim.php",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/models/localmodel.js",
+		"/C/xampp/htdocs/copa-confederacoes/php/utils.php",
+		"/C/xampp/htdocs/copa-confederacoes/public/lib/bootstrap-editable/js/bootstrap-editable.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/HeaderView.html",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/HomeView.html",
+		"/D/USERS/leonardo/AppData/Roaming/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/utils.js",
+		"/C/xampp/htdocs/copa-confederacoes/vendor/composer/ClassLoader.php",
+		"/C/xampp/htdocs/copa-confederacoes/vendor/NotORM/NotORM/Result.php",
+		"/C/xampp/htdocs/copa-confederacoes/vendor/slim/slim/Slim/Middleware/Flash.php",
+		"/C/xampp/htdocs/copa-confederacoes/vendor/slim/slim/Slim/Middleware/MethodOverride.php",
+		"/C/xampp/htdocs/copa-confederacoes/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php",
+		"/C/xampp/htdocs/copa-confederacoes/vendor/NotORM/NotORM.php",
+		"/C/xampp/htdocs/copa-confederacoes/vendor/NotORM/NotORM/Row.php",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/models/equipemodel.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/models/fasemodel.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/js/models/usuariomodel.js",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/PalpitesView.html",
+		"/C/xampp/htdocs/copa-confederacoes/copa-confederacoes.sublime-project",
+		"/D/USERS/leonardo/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/D/USERS/leonardo/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/xampp/htdocs/copa-confederacoes/public/tpl/PalpiteView.html",
+		"/C/xampp/htdocs/copa-confederacoes/php/connection.php",
+		"/C/xampp/htdocs/backbone-todo/web/index.html",
+		"/C/xampp/htdocs/backbone-todo/web/templates/item-template.js",
+		"/C/xampp/htdocs/backbone-todo/web/templates/stats-template.js",
+		"/C/xampp/htdocs/backbone-todo/web/js/templates/item-template.js",
+		"/C/xampp/htdocs/backbone-todo/web/js/templates/stats-template.js",
+		"/C/xampp/htdocs/backbone-todo/web/js/views/app.js",
+		"/C/xampp/htdocs/backbone-todo/web/js/views/todo.js",
+		"/C/xampp/htdocs/backbone-todo/web/js/app.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"self",
+			"$.logThis(",
+			"$.logThis",
+			"logThis",
+			"criterio",
+			"console.log",
+			"$logThis(",
+			"console.log(",
+			"console.log",
+			"btn-info",
+			"tn-primary",
+			"groupSet",
+			"colorScale(i)",
+			"Ptos",
+			"hover",
+			"navbar-inner",
+			"brand",
+			"employee",
+			"navbar",
+			"$app->request()->getBody()",
+			"Vazio",
+			"<th class=\"th-border\" colspan=\"21\"><%= partida.fase.nom_fase %></th>",
+			"arrayToUtf8(",
+			"localhost",
+			"options",
+			"error",
+			" style=\"text-align: center;\"",
+			"930",
+			"home-menu",
+			"30",
+			"325",
+			"reports",
+			"\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"//$.logThis(",
+			"//$.logThis",
+			"//console.log",
+			"colorScale[i]",
+			"",
+			"25",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/copa-confederacoes/public/js/views/resultado.js",
+					"settings":
+					{
+						"buffer_size": 41622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12410,
+								12410
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4578.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "partida.php",
+					"settings":
+					{
+						"buffer_size": 7922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1836.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 1212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								223,
+								223
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 1222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1222,
+								1222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5128,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.894669450837,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.xdebug_execute":
+	{
+		"height": 100.0
+	},
+	"output.xdebug_inspect":
+	{
+		"height": 36.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true
+}
